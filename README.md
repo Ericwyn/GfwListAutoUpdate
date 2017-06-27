@@ -17,6 +17,7 @@
 
  - `gw-shadowsocks.dnslist` 是给极路由版本的Shadowsocks使用的
  - `proxy.pac` 是给桌面版Shadowsocks使用的
+ - `gw-shadowsocks.dnslist_XXXX`与`proxy.pac_XXXX`是每一次新的构建时候对旧的列表的自动备份。
 
 ## 直接下载自动构建版本
 可直接通过一下网址下载每天自动构建的列表，文件的开头会显示自动构建的时间
@@ -34,3 +35,5 @@
  - 供桌面版Shadowsocks使用的加速列表——proxy.pac
     - [http://www.burano.tk/GfwLists/proxy.pac](http://www.burano.tk/GfwLists/proxy.pac)
  
+ - 历史版本
+    - 可直接通过在下载地址后面加上日期格式`yyMMdd`下载，如[http://www.burano.tk/GfwLists/proxy.pac_170625](http://www.burano.tk/GfwLists/proxy.pac_170625)
